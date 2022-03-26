@@ -6,7 +6,11 @@ This library builds on the [Nervestaple.EntityFrameworkCore][1] library to help
 you quickly code up services that can orchestrate between your repositories. 
 The "web" in "WebService" is there because we also provide a new
 repository type and service that you may extend to get updates via 
-[JsonPatchDocument][2] for free.
+[JsonPatchDocument][2] for free. This project is available as a package from
+[NuGet.org][0], you may follow the directions on that page to add it to your 
+project.
+
+* [Nervestaple.Webservice NuGet Package][0]
 
 ```cs
 public class ToDoItemService : AbstractReadWriteService<ToDoItem, long>, IToDoItemService
@@ -55,6 +59,7 @@ Project Icon made by [Smashicons](https://www.flaticon.com/authors/smashicons) f
 
 ----
 
+[0]: https://www.nuget.org/packages/Nervestaple.WebService/
 [1]: https://github.com/cmiles74/EntityFrameworkCore
 [2]: https://docs.microsoft.com/en-us/aspnet/core/web-api/jsonpatch
 [4]: http://www.doxygen.nl/
