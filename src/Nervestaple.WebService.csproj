@@ -4,7 +4,7 @@
     <TargetFramework>net5.0</TargetFramework>
     <PackageId>Nervestaple.WebService</PackageId>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Version>0.4.3-rc</Version>
+    <Version>0.4.4-rc</Version>
     <Company>Nervestaple Development</Company>
     <Product>Nervestaple.WebService</Product>
     <Description>Wraps Nervestaple.EntityFrameworkCore to help create database backed web services</Description>
